@@ -1,0 +1,653 @@
+{
+  "cargo_carrying": {
+    "tanker": {
+      "chemical": {
+        "beer_tanker": [
+          "beer_tanker"
+        ],
+        "chemical_tanker": [
+          "chemical_tanker",
+          "molten_sulpher_tanker"
+        ],
+        "checmical_oil_product_tanker": [
+          "chemical_products_tanker"
+        ],
+        "edible_oil_tanker": [
+          "edible_oil_tanker"
+        ],
+        "latex_tanker": [
+          "latex_tanker"
+        ],
+        "vegetable_oil_tanker": [
+          "vegetable_oil_tanker"
+        ],
+        "wine_tanker": [
+          "wine_tanker"
+        ]
+      },
+      "oil": {
+        "bitumen_tanker": [
+          "asphalt_bitumen_tanker"
+        ],
+        "coal_oil_mixture": [
+          "coal_oil_mixture_tanker"
+        ],
+        "crude_oil_tanker": [
+          "crude_oil_tanker",
+          "crude_oil_products_tanker",
+          "shuttle_tanker"
+        ],
+        "oil_products_tanker": [
+          "products_tanker",
+          "tanker_unspecified"
+        ]
+      },
+      "other_liquid": {
+        "alcohol_tanker": [
+          "alcohol_tanker"
+        ],
+        "caprolactam_tanker": [
+          "caprolactam_tanker"
+        ],
+        "fruit_juice_tanker": [
+          "fruit_juice_tanker"
+        ],
+        "glue_tanker": [
+          "glue_tanker"
+        ],
+        "molasses_tanker": [
+          "molasses_tanker"
+        ],
+        "water_tanker": [
+          "water_tanker"
+        ]
+      },
+      "liquified_gas": {
+        "co2_tanker": [
+          "co2_tanker"
+        ],
+        "lng_tanker": [
+          "cng_tanker",
+          "combination_gas_tanker_lng_lpg",
+          "lng_tanker"
+        ],
+        "lpg_tanker": [
+          "lquified_hydrogen_tanker",
+          "lpg_tanker",
+          "lpg_chemical_tanker"
+        ]
+      }
+    },
+    "bulk_carrier": {
+      "bulk_dry": {
+        "bulk_carrier": [
+          "bulk_carrier",
+          "bulk_carrier_with_vehicle_decks",
+          "bulk_carrier_laker_only"
+        ],
+        "ore_carrier": [
+          "ore_carrier"
+        ]
+      },
+      "bulk_dry_oil": {
+        "bulk_oil_carrier": [
+          "bulk_caustic_soda_carrier_cabu",
+          "bulk_oil_carrier_obo",
+          "bulk_sulfuric_acid_carrier"
+        ],
+        "ore_oil_carrier": [
+          "bulk_oil_chemical_carrier",
+          "ore_oil_chemical_carrier_cleanbu"
+        ]
+      },
+      "self_discharge_bulk_dry": {
+        "self_discharge_bulk_carrier": [
+          "bulk_carrier_self_discharge",
+          "bulk_carrier_self_discharge_laker"
+        ]
+      },
+      "other_bulk_dry": {
+        "aggregates_carrier": [
+          "aggregates_carrier"
+        ],
+        "cement_carrier": [
+          "cement_carrier"
+        ],
+        "limestone_carrier": [
+          "limestone_carrier"
+        ],
+        "powder_carrier": [
+          "powder_carrier"
+        ],
+        "refined_sugar_carrier": [
+          "refined_sugar_carrier"
+        ],
+        "urea_carrier": [
+          "urea_carrier"
+        ],
+        "wood_chips_carrier": [
+          "wood_chips_carrier"
+        ]
+      }
+    },
+    "dry_cargo_passenger": {
+      "container": {
+        "container_ship": [
+          "container_ship_fully_cellular",
+          "container_ship_fully_cellular_ro_ro_facility"
+        ],
+        "passenger_container_ship": [
+          "passenger_container_ship"
+        ]
+      },
+      "general_cargo": {
+        "deck_cargo_ship": [
+          "deck_cargo_ship"
+        ],
+        "general_cargo_ship": [
+          "general_cargo_ship",
+          "general_cargo_ship_open_hatch",
+          "general_cargo_ship_ro_ro_facility",
+          "general_cargo_ship_self_discharging",
+          "general_cargo_tanker",
+          "general_cargo_tanker_container_oil_bulk_cop_ship"
+        ],
+        "palletised_cargo_ship": [
+          "palletised_cargo_ship"
+        ]
+      },
+      "other_dry_cargo": {
+        "barge_carrier": [
+          "barge_carrier"
+        ],
+        "heavy_load_carrier": [
+          "heavy_load_carrier",
+          "heavy_load_carrier_semi_submersible",
+          "yacht_carrier_semi_submersible"
+        ],
+        "livestock_carrier": [
+          "livestock_carrier"
+        ],
+        "nuclear_fuel_carrier": [
+          "nuclear_fuel_carrier",
+          "nuclear_fuel_carrier_ro_ro_facility"
+        ],
+        "pulp_carrier": [
+          "pulp_carrier"
+        ]
+      },
+      "passenger": {
+        "passenger_cruise_ship": [
+          "passenger_cruise"
+        ],
+        "passenger_ship": [
+          "passenger_ship"
+        ]
+      },
+      "passenger_general_cargo": {
+        "passenger_general_cargo_ship": [
+          "passenger_general_cargo_ship"
+        ],
+        "passenger_landing_craft": [
+          "passenger_landing_craft"
+        ],
+        "passenger_ro_ro_cargo_ship": [
+          "passenber_ro_ro_ship_vehicles",
+          "passenger_ro_ro_vehicles_rail"
+        ]
+      },
+      "refrigerated_cargo": {
+        "regrigerated_cargo_ship": [
+          "regrigerated_cargo_ship"
+        ]
+      },
+      "ro_ro_cargo": {
+        "container_ro_ro_cargo_ship": [
+          "container_ro_ro_cargo_ship"
+        ],
+        "landing_craft": [
+          "landing_craft"
+        ],
+        "ro_ro_cargo_ship": [
+          "rail_vehicles_carriers",
+          "ro_ro_cargo_ship"
+        ],
+        "vehicle_carrier": [
+          "vehicle_carrier"
+        ]
+      }
+    }
+  },
+  "work_vessel": {
+    "fishing": {
+      "fish_catching": {
+        "fishing_vessel": [
+          "fishing_vessel"
+        ]
+      },
+      "other_fishing": {
+        "fish_carrier": [
+          "fish_carrier"
+        ],
+        "fish_factory_ship": [
+          "fish_factory_ship"
+        ],
+        "fishing_support_vessel": [
+          "fish_farm_support_vessel",
+          "fishery_patrol_vessel",
+          "fishery_research_vessel",
+          "fishery_support_vessel"
+        ],
+        "kelp_dredger": [
+          "kelp_dredger"
+        ],
+        "pearl_shells_carrier": [
+          "pearl_shells_carrier"
+        ],
+        "seal_catcher": [
+          "seal_catcher"
+        ],
+        "whale_catcher": [
+          "whale_catcher"
+        ]
+      }
+    },
+    "miscellaneous": {
+      "dredging": {
+        "dredger": [],
+        "hopper_dredger": []
+      },
+      "other_activities": {
+        "anchor_hoy": [
+          "anchor_hoy"
+        ],
+        "bunkering_tanker": [
+          "bunkering_tanker_lng",
+          "bunkering_tanker_oil",
+          "bunker_tanker_lng_oil"
+        ],
+        "bouy_lighthouse_vessel": [
+          "bouy_lighthouse_tender",
+          "bouy_tender",
+          "lighthouse_tender"
+        ],
+        "cable_layer": [
+          "cable_layer",
+          "cable_repair_ship"
+        ],
+        "crane_ship": [
+          "crane_vessel",
+          "pile_driving_vehicle"
+        ],
+        "crew_boat": [
+          "crew_boat"
+        ],
+        "dry_storage": [
+          "bulk_dry_storage_ship",
+          "bulk_cement_storage_ship"
+        ],
+        "fire_fighting_vessel": [
+          "fire_fighting_vessel"
+        ],
+        "hospital_vessel": [
+          "hospital_vessel"
+        ],
+        "icebreaker": [
+          "icebreaker",
+          "icebreaker_research"
+        ], Vessel Registry
+        "leisure_vessels": [
+          "exhibition_vessel",
+          "mission_ship",
+          "theatre_vessel"
+        ],
+        "log_tipping_ship": [
+          "log_tipping_ship"
+        ],
+        "mining_vessel": [
+          "mining_vessel"
+        ],
+        "mooring_vessel": [
+          "mooring_vessel"
+        ],
+        "motor_hopper": [
+          "hopper_motor",
+          "stone_carrier"
+        ],
+        "patrol_vessel": [
+          "patrol_vessel"
+        ],
+        "pilot_vessel": [
+          "pilot_vessel"
+        ],
+        "pollution_control_vessel": [
+          "pollution_control_vessel"
+        ], Vessel Registry
+        "power_station_vessel": [
+          "power_station_vessel"
+        ],
+        "rocket_launch_support_ship": [
+          "rocket_launch_support_ship"
+        ],
+        "sailing_vessel": [
+          "sailing_vessel"
+        ],
+        "salvage_ship": [
+          "salvage_ship"
+        ],
+        "search_and_rescue_vessel": [
+          "search_and_rescue_vessel"
+        ],
+        "supply_tender": [
+          "supply_tender"
+        ],
+        "tank_cleaning_vessel": [
+          "tank_cleaning_vessel"
+        ],
+        "training_ship": [
+          "training_ship"
+        ],
+        "trans_shipment_vessel": [
+          "trans_shipment_vessel"
+        ],
+        "utility_vessel": [
+          "utility_vessel"
+        ],
+        "vessel_function_unknown": [
+          "vessel_function_unknown"
+        ],
+        "waste_disposal_vessel": [
+          "effluent_-carrier",
+          "incinerator",
+          "waste_disposal_vessel"
+        ],
+        "wind_turbine_vessel": [
+          "wind_turbine_installation_vessel"
+        ],
+        "work_repair_vessel": [
+          "commissioning_service_operation_vessel",
+          "service_operation_vessel",
+          "work_repair_vessel"
+        ]
+      },
+      "research": {
+        "research_vessel": [
+          "research_survey_vessel"
+        ]
+      },
+      "towing_pushing": {
+        "pusher_tug": [
+          "articulated_pusher_tug",
+          "pusher_tug"
+        ],
+        "tug": [
+          "tug"
+        ]
+      }
+    },
+    "offshore": {
+      "offshore_supply": {
+        "offshore_tug_supply_ship": [
+          "anchor_handling_tug_supply",
+          "offshore_tug_supply_ship"
+        ],
+        "platform_supply_ship": [
+          "crew_supply_vessel",
+          "pipe_carrier",
+          "platform_supply_ship"
+        ]
+      },
+      "other_offshore": {
+        "drilling_ship": [
+          "drilling_ship"
+        ],
+        "fpso": [
+          "fpso_oil",
+          "gas_processing_vessel"
+        ],
+        "fso": [
+          "fso_gas",
+          "fso_oil"
+        ],
+        "offshore_support_vessel": [
+          "accommodation_ship",
+          "diving_support_vessel",
+          "offshore_construction_vessel_jack_up",
+          "offshore_support_vessel"
+        ],
+        "pipe_burying_vessel": [
+          "pipe_burying_vessel"
+        ],
+        "pipe_layer": [
+          "pipe_layer",
+          "pipe_layer_crane_vessel"
+        ],
+        "production_testing_vessel": [
+          "production_testing_vessel"
+        ],
+        "standby_safety_vessel": [
+          "standby_safety_vessel"
+        ],
+        "trenching_support_vessel": [
+          "trenching_support_vessel"
+        ],
+        "well_stimulation_vessel": [
+          "well_stimulation_vessel"
+        ]
+      }
+    }
+  },
+  "non_merchant": {
+    "non_merchant": {
+      "naval_naval_auxiliary": [
+        "aircraft_carrier",
+        "aicraft_transport_naval_auxiliary",
+        "attack_vessel_naval",
+        "boom_defence_vessel",
+        "command_vessel",
+        "corvette",
+        "crane_vessel_naval_auxiliary",
+        "cruiser",
+        "degaussing_vessel",
+        "destroyer",
+        "diving_vessel_naval_auxiliary",
+        "escort",
+        "frigate",
+        "helicopter_carrier",
+        "infantry_landing_craft",
+        "landing_ship_dock_type",
+        "logistics_vessel_naval_ro_ro_cargo",
+        "minehunder",
+        "minelayer",
+        "minesweeper",
+        "munitions_carrier",
+        "naval_small_craft",
+        "netlayer",
+        "patrol_vessel",
+        "replenishment_dry_cargo_vessel",
+        "replanishment_tanker",
+        "seaplane_tender",
+        "submarine",
+        "submarine_chaser",
+        "submarine_salvage_vessel",
+        "tank_landing_craft",
+        "torpedo_boat",
+        "torpedo_recovery_vessel",
+        "torpedo_trials_vessel",
+        "troopship",
+        "tug_naval_auxiliary",
+        "unknown_function_naval_naval_auxiliary",
+        "weapons_trials_vessel"
+      ],
+      "other_non_merchant_ships": [
+        "accommodation_vessel_stationary",
+        "lightship",
+        "museum_stationary",
+        "radio_station_vessel",
+        "restaurant_vessel_stationary",
+        "training_ship_stationary"
+      ],
+      "sail_training_ship": [
+        "sail_training_ship"
+      ],
+      "yacht": [
+        "houseboat",
+        "yacht",
+        "yacht_sailing"
+      ]
+    }
+  },
+  "non_propelled": {
+    "non_propelled": {
+      "barge": {
+        "non_propelled_barge": [
+          "bitumen_tank_barge",
+          "bulk_aggregates_barge",
+          "bulk_cement_barge",
+          "cement_storage_barge",
+          "chemical_tank_barge",
+          "chemical_products_tank_barge",
+          "covered_bulk_cargo_barge",
+          "crude_oil_tank_barge",
+          "drilling_barge",
+          "fish_storage_barge",
+          "general_cargo_barge",
+          "hopper_barge",
+          "lng_tank_barge",
+          "lpg_tank_barge",
+          "products_tank_barge",
+          "trans_shipment_barge",
+          "water_tank_barge"
+        ],
+        "pontoon": [
+          "accommodation_pontoon",
+          "bucket_dredger_pontoon",
+          "car_park",
+          "crane_vessel",
+          "deck_cargo_pontoon",
+          "deck_cargo_pontoon_semi_submersible",
+          "desalinization_pontoon",
+          "dredging_pontoon_unknown_type",
+          "grab_dredger_pontoon",
+          "grain_elevating_pontoon",
+          "jacket_launching_pontoon_semi_submersible",
+          "pontoon_function_unknown",
+          "power_station_pontoon",
+          "sheerlegs_pontoon",
+          "shopping_complex",
+          "steam_supply_pontoon",
+          "suction_dredger_pontoon",
+          "water_injection_dredging_pontoon",
+          "work_maintenance_pontoon"
+        ]
+      }
+    }
+  },
+  "non_sea_going_merchant": {
+    "non_sea_going_merchant_ships": {
+      "dry_cargo_passenger": {
+        "inland_waterways_dry_cargo": [
+          "bulk_cement_carrier",
+          "container_ship_fully_cellular",
+          "general_cargo",
+          "pallet_shuttle_pontoon"
+        ],
+        "inland_waterways_passenger": [
+          "cruise_ship",
+          "passenger_ship"
+        ],
+        "inland_waterways_passenger_general_cargo": [
+          "general_cargo_passenger_ship"
+        ],
+        "inland_wateways_ro_ro_cargo": [
+          "passenger_ro_ro_ship_vehicles",
+          "passenger_ro_ro_ship_vehicles_train"
+        ],
+        "inland_waterways_ro_ro_cargo": [
+          "ro_ro_cargo_chip"
+        ]
+      },
+      "other_non_sea_going": {
+        "inland_waterways_dredging": [
+          "dredging"
+        ],
+        "inland_waterways_fishing": [
+          "fishing"
+        ],
+        "inland_waterways_other_activities": [
+          "hull_cleaning_barge",
+          "other_activities"
+        ],
+        "inland_waterways_research": [
+          "research"
+        ],
+        "inland_waterways_towing_pushing": [
+          "towing_pushing"
+        ]
+      },
+      "tanker": {
+        "inland_waterways_chemical_tanker": [
+          "chemical_tanker",
+          "chemical_products_tanker"
+        ],
+        "inland_waterways_lpg_tanker": [
+          "lpg_tanker"
+        ],
+        "inland_waterways_oil_tanker": [
+          "oil_tanker"
+        ],
+        "inland_waterways_other_liquids_tanker": [
+          "edible_oil_tanker",
+          "vegetable_oil_tanker",
+          "water_tanker"
+        ]
+      }
+    }
+  },
+  "non_ship_structure": {
+    "non_ship_structure": {
+      "non_ship_structures": {
+        "air_cushion_vehicle": [
+          "air_cushion_vehicle_passenger",
+          "air_cushion_vehicle_passenger_ro_ro_vehicles",
+          "air_cushion_vehicle_patrol_vessel",
+          "air_cushion_vehicle_work_vessel",
+          "wing_in_ground_effect"
+        ],
+        "bouy": [
+          "mooring_buoy"
+        ],
+        "floating_dock": [
+          "dock_gate",
+          "floating_dock",
+          "mechanical_lift_dock"
+        ],
+        "linkspan_jetty": [
+          "linkspan_jetty"
+        ],
+        "platform": [
+          "accommodation_plaform_jack_up",
+          "accommodation_platform_semi_sbmersible",
+          "crane_platform_jack_up",
+          "diving_support_platform_semi_submersible",
+          "drilling_rig_jack_up",
+          "drilling_rig_semi_submersible",
+          "maintenance_platform_semi_submersible",
+          "pipe_layer_platform_semi_submersible",
+          "production_platform_jack_up",
+          "production_platform_semi_submersible",
+          "pumping_platform",
+          "supply_platform_jack_up",
+          "support_platform_jack_up",
+          "wind_turbine_installation_platform_jack_up"
+        ],
+        "submersible": [
+          "submersible"
+        ],
+        "underwater_system": [
+          "underwater_system"
+        ]
+      }
+    }
+  }
+}

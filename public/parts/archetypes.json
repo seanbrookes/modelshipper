@@ -1,0 +1,178 @@
+[
+  {
+    "id": "vlcc",
+    "label": "VLCC",
+    "subtitle": "Very Large Crude Carrier",
+    "loa": 333, "beam": 60, "moulded_depth": 29,
+    "thumbnail_svg_path": "M3,10 L3,34 L74,34 Q82,34 87,30 Q90,26 90,20 Q90,14 87,11 L84,10 Z M87,30 Q91,33 90,36",
+    "visual_config": {
+      "hull_id": "hull_full_bulbous",
+      "superstructure_id": "ss_aft_tiered",
+      "funnel_id": "funnel_round_squat",
+      "cargo_layout_id": "cargo_tank_crude",
+      "bridge_position_ratio": 0.88,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 21.0,
+      "livery": {
+        "hull_primary": "#8B0000",
+        "hull_secondary": "#CC0000",
+        "superstructure": "#F5F0E8",
+        "funnel": "#CC0000"
+      }
+    }
+  },
+  {
+    "id": "suezmax",
+    "label": "Suezmax",
+    "subtitle": "Crude Oil Tanker",
+    "loa": 274, "beam": 48, "moulded_depth": 23,
+    "thumbnail_svg_path": "M3,10 L3,32 L68,32 Q76,32 82,28 Q86,24 86,18 Q86,13 83,11 L80,10 Z M82,28 Q86,31 85,34",
+    "visual_config": {
+      "hull_id": "hull_full_bulbous",
+      "superstructure_id": "ss_aft_block",
+      "funnel_id": "funnel_flared",
+      "cargo_layout_id": "cargo_tank_crude",
+      "bridge_position_ratio": 0.86,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 17.0,
+      "livery": {
+        "hull_primary": "#2C3E50",
+        "hull_secondary": "#E74C3C",
+        "superstructure": "#ECF0F1",
+        "funnel": "#E74C3C"
+      }
+    }
+  },
+  {
+    "id": "post_panamax_cont",
+    "label": "Post-Panamax",
+    "subtitle": "Container Ship",
+    "loa": 366, "beam": 51, "moulded_depth": 30,
+    "thumbnail_svg_path": "M3,10 L3,34 L72,36 Q82,37 88,31 Q94,24 90,14 L86,10 Z M88,30 Q94,33 92,37",
+    "visual_config": {
+      "hull_id": "hull_fine_bulbous",
+      "superstructure_id": "ss_aft_narrow",
+      "funnel_id": "funnel_round_tall",
+      "cargo_layout_id": "cargo_cont_high",
+      "bridge_position_ratio": 0.84,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 14.5,
+      "livery": {
+        "hull_primary": "#00243D",
+        "hull_secondary": "#FF0000",
+        "superstructure": "#FFFFFF",
+        "funnel": "#ADD8E6"
+      }
+    }
+  },
+  {
+    "id": "handymax_bulk",
+    "label": "Handymax",
+    "subtitle": "Bulk Carrier",
+    "loa": 190, "beam": 32, "moulded_depth": 18,
+    "thumbnail_svg_path": "M3,10 L3,32 L60,32 Q68,32 74,28 Q78,24 76,16 L73,10 Z",
+    "visual_config": {
+      "hull_id": "hull_full_bulbous",
+      "superstructure_id": "ss_aft_block",
+      "funnel_id": "funnel_round_tall",
+      "cargo_layout_id": "cargo_bulk_hatch",
+      "bridge_position_ratio": 0.85,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 11.0,
+      "livery": {
+        "hull_primary": "#1A1A2E",
+        "hull_secondary": "#E94560",
+        "superstructure": "#F0F0F0",
+        "funnel": "#1A1A2E"
+      }
+    }
+  },
+  {
+    "id": "capesize_bulk",
+    "label": "Capesize",
+    "subtitle": "Bulk Carrier",
+    "loa": 280, "beam": 45, "moulded_depth": 24,
+    "thumbnail_svg_path": "M3,10 L3,33 L70,33 Q78,33 84,29 Q88,24 87,17 L84,10 Z M84,29 Q88,32 87,35",
+    "visual_config": {
+      "hull_id": "hull_full_bulbous",
+      "superstructure_id": "ss_aft_tiered",
+      "funnel_id": "funnel_round_squat",
+      "cargo_layout_id": "cargo_bulk_hatch",
+      "bridge_position_ratio": 0.87,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 17.5,
+      "livery": {
+        "hull_primary": "#2F4F4F",
+        "hull_secondary": "#CD853F",
+        "superstructure": "#DCDCDC",
+        "funnel": "#2F4F4F"
+      }
+    }
+  },
+  {
+    "id": "lng_carrier",
+    "label": "LNG Carrier",
+    "subtitle": "Liquefied Natural Gas",
+    "loa": 295, "beam": 46, "moulded_depth": 26,
+    "thumbnail_svg_path": "M3,10 L3,32 L70,32 Q80,33 86,28 Q92,22 90,14 L86,10 Z M86,28 Q92,31 90,34",
+    "visual_config": {
+      "hull_id": "hull_fine_bulbous",
+      "superstructure_id": "ss_aft_narrow",
+      "funnel_id": "funnel_cowl",
+      "cargo_layout_id": "cargo_lng_spheres",
+      "bridge_position_ratio": 0.85,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 12.0,
+      "livery": {
+        "hull_primary": "#003153",
+        "hull_secondary": "#4A90D9",
+        "superstructure": "#FFFFFF",
+        "funnel": "#FF6B35"
+      }
+    }
+  },
+  {
+    "id": "roro_carrier",
+    "label": "Ro-Ro",
+    "subtitle": "Vehicle / Cargo Carrier",
+    "loa": 200, "beam": 32, "moulded_depth": 30,
+    "thumbnail_svg_path": "M3,8 L3,34 L68,34 L72,34 L74,28 L76,8 Z",
+    "visual_config": {
+      "hull_id": "hull_ro_ro",
+      "superstructure_id": "ss_fwd_flush",
+      "funnel_id": "funnel_suppressed",
+      "cargo_layout_id": "cargo_roro_deck",
+      "bridge_position_ratio": 0.10,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 8.0,
+      "livery": {
+        "hull_primary": "#1C3B6E",
+        "hull_secondary": "#FFFFFF",
+        "superstructure": "#1C3B6E",
+        "funnel": "#F5A623"
+      }
+    }
+  },
+  {
+    "id": "feeder_cont",
+    "label": "Feeder",
+    "subtitle": "Container Feeder",
+    "loa": 130, "beam": 20, "moulded_depth": 12,
+    "thumbnail_svg_path": "M3,10 L3,30 L56,32 Q64,32 70,28 Q74,24 72,16 L68,10 Z M70,28 Q74,31 73,33",
+    "visual_config": {
+      "hull_id": "hull_plumb_modern",
+      "superstructure_id": "ss_aft_block",
+      "funnel_id": "funnel_round_tall",
+      "cargo_layout_id": "cargo_cont_low",
+      "bridge_position_ratio": 0.82,
+      "bridge_height_offset": 0.0,
+      "draft_offset": 7.0,
+      "livery": {
+        "hull_primary": "#4A4A4A",
+        "hull_secondary": "#FF8C00",
+        "superstructure": "#E8E8E8",
+        "funnel": "#FF8C00"
+      }
+    }
+  }
+]

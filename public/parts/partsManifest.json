@@ -1,0 +1,232 @@
+{
+  "version": "1.1",
+  "coordinate_system": "Y-up, meters, bottom-center origin",
+  "hulls": [
+    {
+      "id": "hull_full_bulbous",
+      "label": "Full Bulbous",
+      "description": "High block coefficient, squared transom, bulbous bow — tankers and bulk carriers",
+      "thumbnail_hull_path": "M10,8 L10,62 L218,62 Q230,62 238,52 Q244,40 242,24 Q240,12 230,8 Z",
+      "thumbnail_bulb_path": "M218,62 Q228,66 232,76 Q228,82 218,80 Q208,76 210,66 Q212,62 218,62 Z",
+      "thumbnail_deck_path": "",
+      "parts": {
+        "bow":   { "file": "hull_full_bulbous_bow.glb",   "nominal_length_m": 40.0 },
+        "mid":   { "file": "hull_full_bulbous_mid.glb",   "nominal_length_m": 50.0 },
+        "stern": { "file": "hull_full_bulbous_stern.glb", "nominal_length_m": 35.0 }
+      }
+    },
+    {
+      "id": "hull_fine_bulbous",
+      "label": "Fine Bulbous",
+      "description": "Low block coefficient, raking bow, pronounced bulb — container ships and cruise",
+      "thumbnail_hull_path": "M10,8 L10,52 Q12,64 20,68 L208,68 Q222,68 234,58 Q244,44 240,26 Q236,12 218,8 L196,8 Z",
+      "thumbnail_bulb_path": "M234,58 Q246,64 248,74 Q244,80 234,78 Q224,72 226,64 Q230,58 234,58 Z",
+      "thumbnail_deck_path": "",
+      "parts": {
+        "bow":   { "file": "hull_fine_bulbous_bow.glb",   "nominal_length_m": 45.0 },
+        "mid":   { "file": "hull_fine_bulbous_mid.glb",   "nominal_length_m": 50.0 },
+        "stern": { "file": "hull_fine_bulbous_stern.glb", "nominal_length_m": 30.0 }
+      }
+    },
+    {
+      "id": "hull_plumb_modern",
+      "label": "Plumb Bow",
+      "description": "Vertical stem, spoon stern, fuel-efficient — modern cargo and container",
+      "thumbnail_hull_path": "M10,8 L10,52 Q12,64 18,66 L224,66 Q232,66 236,60 L236,8 Z",
+      "thumbnail_bulb_path": "",
+      "thumbnail_deck_path": "",
+      "parts": {
+        "bow":   { "file": "hull_plumb_modern_bow.glb",   "nominal_length_m": 30.0 },
+        "mid":   { "file": "hull_plumb_modern_mid.glb",   "nominal_length_m": 50.0 },
+        "stern": { "file": "hull_plumb_modern_stern.glb", "nominal_length_m": 35.0 }
+      }
+    },
+    {
+      "id": "hull_ro_ro",
+      "label": "Ro-Ro / Ferry",
+      "description": "High freeboard, flush sides, ramp stern — car carriers and Ro-Ro ferries",
+      "thumbnail_hull_path": "M10,4 L10,66 L220,66 L228,44 L230,4 Z",
+      "thumbnail_bulb_path": "",
+      "thumbnail_deck_path": "M10,24 L228,24 M10,44 L222,44 M220,66 L230,46",
+      "parts": {
+        "bow":   { "file": "hull_ro_ro_bow.glb",   "nominal_length_m": 28.0 },
+        "mid":   { "file": "hull_ro_ro_mid.glb",   "nominal_length_m": 50.0 },
+        "stern": { "file": "hull_ro_ro_stern.glb", "nominal_length_m": 30.0 }
+      }
+    }
+  ],
+  "superstructures": [
+    {
+      "id": "ss_aft_block",
+      "label": "Aft Block",
+      "description": "Tall rectangular block at aft — standard on tankers and bulk carriers",
+      "file": "ss_aft_block.glb",
+      "thumbnail_svg_path": "M2,44 L2,8 L36,8 L36,44 Z M8,8 L8,2 L30,2 L30,8 Z M36,20 L42,20 L42,30 L36,30 Z"
+    },
+    {
+      "id": "ss_aft_tiered",
+      "label": "Aft Tiered",
+      "description": "Stepped/tiered superstructure — modern tankers and product carriers",
+      "file": "ss_aft_tiered.glb",
+      "thumbnail_svg_path": "M2,44 L2,24 L16,24 L16,14 L30,14 L30,8 L44,8 L44,44 Z M44,24 L50,24 L50,34 L44,34 Z"
+    },
+    {
+      "id": "ss_aft_narrow",
+      "label": "Aft Narrow",
+      "description": "Narrow streamlined tower — container ships and modern cargo",
+      "file": "ss_aft_narrow.glb",
+      "thumbnail_svg_path": "M8,44 L8,6 L30,6 L30,44 Z M12,6 L12,2 L26,2 L26,6 Z M30,18 L36,18 L36,26 L30,26 Z"
+    },
+    {
+      "id": "ss_mid_block",
+      "label": "Mid Block",
+      "description": "Block superstructure at midship — general cargo and reefers",
+      "file": "ss_mid_block.glb",
+      "thumbnail_svg_path": "M6,44 L6,10 L40,10 L40,44 Z M12,10 L12,4 L34,4 L34,10 Z"
+    },
+    {
+      "id": "ss_fwd_block",
+      "label": "Fwd Block",
+      "description": "Forward-positioned superstructure — bulk carriers with forward placement",
+      "file": "ss_fwd_block.glb",
+      "thumbnail_svg_path": "M2,44 L2,8 L34,8 L34,44 Z M6,8 L6,2 L28,2 L28,8 Z"
+    },
+    {
+      "id": "ss_fwd_flush",
+      "label": "Fwd Integrated",
+      "description": "Flush integrated forward superstructure — Ro-Ro, car carriers, passenger",
+      "file": "ss_fwd_flush.glb",
+      "thumbnail_svg_path": "M2,44 L2,2 L44,2 L44,44 Z M44,16 L50,20 L50,36 L44,36 Z"
+    },
+    {
+      "id": "ss_split_aft",
+      "label": "Split Aft",
+      "description": "Separated bridge and funnel structure — general cargo with gantry",
+      "file": "ss_split_aft.glb",
+      "thumbnail_svg_path": "M2,44 L2,16 L16,16 L16,8 L28,8 L28,44 Z M36,44 L36,24 L48,24 L48,44 Z"
+    },
+    {
+      "id": "ss_cruise_tiered",
+      "label": "Cruise Tiered",
+      "description": "Multi-deck tiered accommodation — cruise ships and large ferries",
+      "file": "ss_cruise_tiered.glb",
+      "thumbnail_svg_path": "M2,44 L2,38 L8,38 L8,32 L14,32 L14,22 L20,22 L20,14 L34,14 L34,22 L40,22 L40,38 L46,38 L46,44 Z"
+    }
+  ],
+  "funnels": [
+    {
+      "id": "funnel_round_tall",
+      "label": "Round Tall",
+      "description": "Standard tall round funnel — general cargo and tankers",
+      "file": "funnel_round_tall.glb",
+      "thumbnail_svg_path": "M14,44 L14,8 Q24,6 34,8 L34,44 Z M12,8 Q24,2 36,8"
+    },
+    {
+      "id": "funnel_round_squat",
+      "label": "Round Squat",
+      "description": "Short wide funnel — VLCCs and large tankers",
+      "file": "funnel_round_squat.glb",
+      "thumbnail_svg_path": "M10,44 L10,22 Q24,18 38,22 L38,44 Z M8,22 Q24,16 40,22"
+    },
+    {
+      "id": "funnel_flared",
+      "label": "Flared",
+      "description": "Flared top with uptake — product tankers and chemical carriers",
+      "file": "funnel_flared.glb",
+      "thumbnail_svg_path": "M16,44 L16,16 L10,8 L38,8 L34,16 L34,44 Z"
+    },
+    {
+      "id": "funnel_twin",
+      "label": "Twin Funnels",
+      "description": "Twin side-by-side funnels — ferries and older liners",
+      "file": "funnel_twin.glb",
+      "thumbnail_svg_path": "M4,44 L4,12 Q10,10 16,12 L16,44 Z M22,44 L22,12 Q28,10 34,12 L34,44 Z"
+    },
+    {
+      "id": "funnel_cowl",
+      "label": "Cowl Top",
+      "description": "Cowl-capped funnel — cruise ships and modern passenger vessels",
+      "file": "funnel_cowl.glb",
+      "thumbnail_svg_path": "M14,44 L14,16 L10,10 Q24,4 38,10 L34,16 L34,44 Z M8,10 Q24,2 40,10"
+    },
+    {
+      "id": "funnel_suppressed",
+      "label": "Suppressed",
+      "description": "Very low exhaust uptake integrated into superstructure — modern eco designs",
+      "file": "funnel_suppressed.glb",
+      "thumbnail_svg_path": "M6,44 L6,34 L42,34 L42,44 Z M12,34 L10,28 L38,28 L36,34 Z"
+    }
+  ],
+  "cargos": [
+    {
+      "id": "cargo_cont_high",
+      "label": "Containers (High)",
+      "description": "Tall container stacks — post-Panamax and ultra-large container ships",
+      "file": "cargo_cont_high.glb",
+      "thumbnail_svg_path": "M2,44 L2,28 L16,28 L16,44 Z M2,26 L2,10 L16,10 L16,26 Z M18,44 L18,28 L32,28 L32,44 Z M18,26 L18,10 L32,10 L32,26 Z M18,8 L18,2 L32,2 L32,8 Z M34,44 L34,28 L48,28 L48,44 Z M34,26 L34,10 L48,10 L48,26 Z M50,44 L50,28 L64,28 L64,44 Z M50,26 L50,10 L64,10 L64,26 Z M50,8 L50,2 L64,2 L64,8 Z"
+    },
+    {
+      "id": "cargo_cont_low",
+      "label": "Containers (Low)",
+      "description": "Shallow container stacks — feeder vessels and panamax",
+      "file": "cargo_cont_low.glb",
+      "thumbnail_svg_path": "M2,44 L2,30 L18,30 L18,44 Z M2,28 L2,14 L18,14 L18,28 Z M22,44 L22,30 L38,30 L38,44 Z M22,28 L22,14 L38,14 L38,28 Z M42,44 L42,30 L58,30 L58,44 Z M62,44 L62,30 L78,30 L78,44 Z M62,28 L62,14 L78,14 L78,28 Z"
+    },
+    {
+      "id": "cargo_bulk_hatch",
+      "label": "Bulk Hatches",
+      "description": "Flush hatch covers — standard bulk carriers",
+      "file": "cargo_bulk_hatch.glb",
+      "thumbnail_svg_path": "M2,16 L30,16 L30,42 L2,42 Z M32,16 L60,16 L60,42 L32,42 Z M62,16 L90,16 L90,42 L62,42 Z M4,16 L4,8 M14,16 L14,8 M62,16 L62,8 M74,16 L74,8"
+    },
+    {
+      "id": "cargo_bulk_open",
+      "label": "Open Hatch",
+      "description": "Open cargo holds — timber, pulp, and open-hatch bulkers",
+      "file": "cargo_bulk_open.glb",
+      "thumbnail_svg_path": "M2,14 L30,14 L30,44 L2,44 Z M32,14 L60,14 L60,44 L32,44 Z M62,14 L90,14 L90,44 L62,44 Z M2,14 Q16,6 30,14 M32,14 Q46,6 60,14 M62,14 Q76,6 90,14"
+    },
+    {
+      "id": "cargo_tank_crude",
+      "label": "Crude Deck",
+      "description": "Crude tanker main deck with manifold and pipe runs",
+      "file": "cargo_tank_crude.glb",
+      "thumbnail_svg_path": "M2,26 L96,26 M2,32 L96,32 M16,14 L16,44 M32,14 L32,44 M48,14 L48,44 M64,14 L64,44 M80,14 L80,44 M48,8 L44,14 L52,14 Z"
+    },
+    {
+      "id": "cargo_tank_clean",
+      "label": "Product Deck",
+      "description": "Clean/product tanker — manifold centreline, minimal pipework",
+      "file": "cargo_tank_clean.glb",
+      "thumbnail_svg_path": "M2,28 L96,28 M48,8 L44,16 L52,16 Z M44,16 L44,44 M52,16 L52,44 M30,28 L30,18 L36,18 M66,28 L66,18 L60,18"
+    },
+    {
+      "id": "cargo_lng_spheres",
+      "label": "LNG Spheres",
+      "description": "Moss-type spherical LNG tanks rising above deck",
+      "file": "cargo_lng_spheres.glb",
+      "thumbnail_svg_path": "M10,36 A14,14 0 1 1 10.1,36 Z M44,36 A14,14 0 1 1 44.1,36 Z M78,36 A14,14 0 1 1 78.1,36 Z M2,44 L96,44"
+    },
+    {
+      "id": "cargo_lng_membrane",
+      "label": "LNG Membrane",
+      "description": "Membrane-type LNG — flush prismatic tanks, low deck profile",
+      "file": "cargo_lng_membrane.glb",
+      "thumbnail_svg_path": "M4,44 L4,20 L24,14 L72,14 L92,20 L92,44 Z M24,14 L24,44 M48,14 L48,44 M72,14 L72,44"
+    },
+    {
+      "id": "cargo_roro_deck",
+      "label": "Ro-Ro Decks",
+      "description": "Multi-level vehicle decks visible at stern — car carriers and Ro-Ro",
+      "file": "cargo_roro_deck.glb",
+      "thumbnail_svg_path": "M2,44 L2,8 L92,8 L92,44 Z M2,18 L92,18 M2,28 L92,28 M2,38 L92,38 M82,44 L82,8 L92,24 L92,44 Z"
+    },
+    {
+      "id": "cargo_geared",
+      "label": "Ship's Cranes",
+      "description": "Deck cranes/gear — geared bulk, general cargo, multipurpose",
+      "file": "cargo_geared.glb",
+      "thumbnail_svg_path": "M2,44 L2,20 L6,20 L6,44 Z M6,20 L24,8 M24,8 L24,44 M30,44 L30,20 L34,20 L34,44 Z M34,20 L52,8 M52,8 L52,44 M58,44 L58,20 L62,20 L62,44 Z M62,20 L80,8 M80,8 L80,44"
+    }
+  ]
+}
